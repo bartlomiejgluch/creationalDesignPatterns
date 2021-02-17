@@ -3,7 +3,7 @@ package org.example.factoryMethodPattern;
 abstract public class Plan {
 
     protected double rate;
-    abstract void gatRate();
+    abstract void getRate();
 
     public void calculateBill(int units){
 

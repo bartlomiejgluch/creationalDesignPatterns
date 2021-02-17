@@ -2,7 +2,7 @@ package org.example.factoryMethodPattern;
 
 public class InstitutionalPlan extends Plan{
     @Override
-    void gatRate() {
+    void getRate() {
         rate = 5.5;
     }
 }
